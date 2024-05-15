@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi página web</title>
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Mi página web</h1>
+        </header>
+
+        <br>
+
+        <ul class="navbar">
+            <li><a href="index.html">Inicio</a>
+            <li><a href="autor.html">Autor</a>
+            <li><a href="estandaresWeb.html">Estándares Web</a>
+            <li><a href="contactame.html">Contáctame</a>
+        </ul>
+
+        <div class="info">
+            <form method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <div class="form-group">
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                </div>
+                <div class="form-group">
+                    <label for="detalles">Detalles:</label>
+                    <textarea id="detalles" name="detalles" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+        
+        <address>Universidad Nacional de San Agustín</address>
+
+    </body>
+</html>
