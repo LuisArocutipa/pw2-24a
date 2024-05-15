@@ -39,3 +39,11 @@ address {
     padding: 1em;
     text-align: center;
     border-top: thin dotted }
+.form-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 1px;
+}
