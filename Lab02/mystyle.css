@@ -1,0 +1,41 @@
+body {
+    padding-left: 12em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: black;
+    background-color: #336b87 }
+header {
+    background-color: #2a3132;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.info {
+    padding: 50px;
+    background-color: #90afc5;
+}
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 10em }
+h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+ul.navbar li {
+    background: #90afc5;
+    color: white;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+address {
+    background-color: #2a3132;
+    color: white;
+    margin-top: 1em;
+    padding: 1em;
+    text-align: center;
+    border-top: thin dotted }
